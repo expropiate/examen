@@ -90,7 +90,7 @@
 													$selected="";
 												}
 												?>
-												<option value="<?php echo $simbolo;?>" <?php echo $selected;?>><?php echo ($simbolo);?></option>
+												<option value="<?php echo $simbolo;?>" <?php echo $selected;?>><?php echo $simbolo;?></option>
 												<?php
 											}
 										?>
