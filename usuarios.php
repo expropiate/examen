@@ -21,7 +21,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<?php include("head.php");?> <!-- Eliminar paréntesis -->
+	<?php include("head.php"); ?> <!-- Eliminar paréntesis -->
   </head>
   <body>
  	<?php
