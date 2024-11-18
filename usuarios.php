@@ -10,8 +10,8 @@
 		exit;
     }
 	/* Connect To Database*/
-	require_once "config/db.php"; // Eliminar paréntesis
-	require_once "config/conexion.php"; // Eliminar paréntesis
+	require_once "config/db.php"; // Paréntesis eliminados
+	require_once "config/conexion.php"; // Paréntesis eliminados
 	$active_facturas="";
 	$active_productos="";
 	$active_clientes="";
@@ -21,11 +21,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<?php include("head.php"); ?> <!-- Eliminar paréntesis -->
+	<?php include "head.php"; ?> <!-- Paréntesis eliminados -->
   </head>
   <body>
  	<?php
-	include("navbar.php"); // Eliminar paréntesis
+	include "navbar.php"; // Paréntesis eliminados
 	?> 
     <div class="container">
 		<div class="panel panel-info">
@@ -37,9 +37,9 @@
 		</div>			
 			<div class="panel-body">
 			<?php
-			include("modal/registro_usuarios.php"); // Eliminar paréntesis
-			include("modal/editar_usuarios.php"); // Eliminar paréntesis
-			include("modal/cambiar_password.php"); // Eliminar paréntesis
+			include "modal/registro_usuarios.php"; // Paréntesis eliminados
+			include "modal/editar_usuarios.php"; // Paréntesis eliminados
+			include "modal/cambiar_password.php"; // Paréntesis eliminados
 			?>
 			<form class="form-horizontal" role="form" id="datos_cotizacion">
 				<div class="form-group row">
@@ -61,7 +61,7 @@
 	</div>
 	<hr>
 	<?php
-	include("footer.php"); // Eliminar paréntesis
+	include "footer.php"; // Paréntesis eliminados
 	?>
 	<script type="text/javascript" src="js/usuarios.js"></script>
   </body>
